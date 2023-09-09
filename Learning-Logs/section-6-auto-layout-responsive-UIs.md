@@ -15,3 +15,5 @@
     * Constraints are the rules that you use to lay out your UI. You use constraints to specify the position and size of views and stack views. You can also use constraints to specify the spacing between views and stack views. 
 
     * Auto layout is the system that implements your constraints. Auto layout is the system that takes your constraints and uses them to lay out your UI.
+
+
