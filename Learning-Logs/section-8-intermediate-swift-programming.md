@@ -85,3 +85,25 @@ Explanation of the solution:
 * We then added two new stock tickers to the dictionary.
 * We then printed the two new stock tickers.
 
+
+### Defining and Unwrapping Optionals
+
+```swift
+var name: String? = nil
+
+if let unwrapped = name {
+    print("\(unwrapped.count) letters")
+} else {
+    print("Missing name.")
+}
+```
+You may start out with a variable with no data in it, but you know that it will have data later on. In this case, you can define it as an optional. An optional is a variable that can hold either a value or no value at all. You can define an optional by adding a question mark after the type.
+
+```swift
+
+var name: String? = nil
+
+```
+
+
+
